@@ -5,13 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Andrew Abotomey - Game Programmer</title>
         <link rel="stylesheet" href="css/foundation.css" />
-        <meta name ="apple-mobile-web-app-capable" content="yes" />
-        <meta name ="apple-mobile-web-app-status-bar-style" content="black">
         <script src="js/vendor/modernizr.js"></script>
     </head>
     <body>
-        <div class="off-canvas-wrap">
+        <div class="off-canvas-wrap" data-offcanvas>
             <div class="inner-wrap">
+                <a class="left-off-canvas-toggle" href="#" >
+			
                 <aside class="left-off-canvas-menu">
                 
                     <ul class="off-canvas-list">
@@ -19,14 +19,10 @@
                         <li><a href="index.html">Home</a></li>
                     </ul>
                     
-                    <hr>
-                    
                     <ul class="off-canvas-list">
                         <li><label class="first">Personal Projects</label></li>
                         <li><a href="HackyRPG.html">Hacky RPG</a></li>
                     </ul>
-                    
-                    <hr>
                     
                     <ul class="off-canvas-list">
                         <li><label class="first">University Projects</label></li>
@@ -36,73 +32,77 @@
                         <li><a href="GriffithTank.html">Griffith University Tank Tournament</a></li>
                     </ul>
                     
-                    <hr>
-                    
                     <ul class="off-canvas-list">
                         <li><label class="first">Contact me</label></li>
                         <li><a href="contact.html">Contact me</a></li>
                     </ul>
                 </aside>
-            </div>
-        </div>
+				<title>Andrew Abotomey - Game Programmer</title>
+				
+                <nav class="tab-bar show-for-small">
+                    <a class="left-off-canvas-toggle menu-icon ">
+                        <span>Andrew Abotomey</span>
+                    </a>  
+                </nav>
     
-        <nav class="tab-bar show-for-small">
-            <a class="left-off-canvas-toggle menu-icon ">
-                <span>Foundation</span>
-            </a>  
-        </nav>
-    
-        <nav class="top-bar hide-for-small" data-topbar>
-            <ul class="title-area">
-                <li class="name">
-                    <h1><a href="index.html">Andrew Abotomey</a></h1>
-                </li>
-                <li class="toggle-topbar menu-icon"><a href="index.html">Menu</a></li>
-            </ul>
-            <section class="top-bar-section">
-                <!-- Left Nav Section -->
-                <ul class="left">
-                    <li class="has-dropdown">
-                        <a href="#">Personal Projects</a>
-                        <ul class="dropdown">
-                            <li><a href="HackyRPG.html">Hacky RPG</a></li>
+                <nav class="top-bar hide-for-small" data-topbar>
+                    <ul class="title-area">
+                        <li class="name">
+                            <h1><a href="index.html">Andrew Abotomey</a></h1>
+                       </li>
+                    </ul>
+                    <section class="top-bar-section">
+                        <!-- Left Nav Section -->
+                        <ul class="left">
+                            <li class="has-dropdown">
+                                <a href="#">Personal Projects</a>
+                                <ul class="dropdown">
+                                    <li><a href="HackyRPG.html">Hacky RPG</a></li>
+                                </ul>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="has-dropdown">
+                                <a href="#">University Projects</a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Nurse Rostering Problem</a></li>
+                                    <li><a href="#">Software Rendering Engine</a></li>
+                                    <li><a href="#">OpenGL Game Engine</a></li>
+                                    <li><a href="GriffithTank.html">Griffith University Tank Tournament</a></li>
+                                </ul>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="contact.html">Contact me</a></li>
                         </ul>
-                    </li>
-                    <li class="divider"></li>
-                    <li class="has-dropdown">
-                        <a href="#">University Projects</a>
-                        <ul class="dropdown">
-                            <li><a href="#">Nurse Rostering Problem</a></li>
-                            <li><a href="#">Software Rendering Engine</a></li>
-                            <li><a href="#">OpenGL Game Engine</a></li>
-                            <li><a href="GriffithTank.html">Griffith University Tank Tournament</a></li>
-                        </ul>
-                    </li>
-                    <li class="divider"></li>
-                    <li><a href="contact.html">Contact me</a></li>
-                </ul>
-            </section>
-        </nav>
-        
-        <div class="row">
-          <div class="large-12 columns">
-            <h1>Andrew Abotomey - Game Programmer</h1>
-          </div>
-        </div>
-        
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="panel">
-                    <h3>Hacky RPG</h3>
-                    <p>This is a small project that I have been working on since the start of my 4th year of university. The game is currently developed in C# with the MonoGame Framework and is currently targeting Windows, Mac, Linux and PlayStation Mobile (PS Vita only). Once these version are complete, a mobile version may be available.</p>
-                </div>
+                    </section>
+                </nav>
+				
+				<section id="main-content">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <h1>Andrew Abotomey - Game Programmer</h1>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="panel">
+                                <h3>Hacky RPG</h3>
+                                <p>This is a small project that I have been working on since the start of my 4th year of university. The game is currently developed in C# with the MonoGame Framework and is currently targeting Windows, Mac, Linux and PlayStation Mobile (PS Vita only). Once these version are complete, a mobile version may be available.</p>
+                            </div>
+                        </div>
+                    </div>
+		
+				</section>
+				
+				<a class="exit-off-canvas"></a>
             </div>
         </div>
         
         <script src="js/vendor/jquery.js"></script>
         <script src="js/foundation.min.js"></script>
         <script>
-            $(document).foundation();
+          $(document).foundation();
         </script>
-  </body>
+    </body>
 </html>
+
