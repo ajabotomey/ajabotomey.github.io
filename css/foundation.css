@@ -40,7 +40,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #c3bfbf;
+  background: #CCCC99;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1904,10 +1904,10 @@ meta.foundation-mq-topbar {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #d8d8d8;
+  border-color: #FFFFCC;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #e8e6e6; }
+  background: #99CC99; }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
