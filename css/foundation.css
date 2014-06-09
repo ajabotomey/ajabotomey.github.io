@@ -1,3 +1,8 @@
+/* User specific */
+p {
+	font-family: Georgia, serif;
+}
+
 /* Foundation Specific */
 meta.foundation-version {
   font-family: "/5.2.2/"; }
@@ -40,11 +45,12 @@ body {
   font-size: 100%; }
 
 body {
-  background: #CCCC99;
+  background: #CFCFCF;
   color: #222222;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  /*font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;*/
+  font-family: Georgia, serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1;
@@ -1344,7 +1350,8 @@ meta.foundation-mq-topbar {
     width: 100%;
     height: auto;
     display: block;
-    background: #333333;
+    /*background: #333333;*/
+	background: #0001FF;
     font-size: 16px;
     margin: 0; }
   .top-bar-section .divider,
@@ -1515,7 +1522,8 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    /*background: #333333;*/
+	background: #0001FF;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -1536,7 +1544,7 @@ meta.foundation-mq-topbar {
       position: relative;
       top: 7px; }
     .top-bar.expanded {
-      background: #333333; }
+      /*background: #333333;*/ }
 
   .contain-to-grid .top-bar {
     max-width: 62.5rem;
@@ -1555,14 +1563,14 @@ meta.foundation-mq-topbar {
         .top-bar-section ul li .js-generated {
           display: none; }
     .top-bar-section li.hover > a:not(.button) {
-      background: #272727;
+      background: #0001C2;
       color: white; }
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #0001FF; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
-        background: #272727; }
+        background: #0001C2; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
@@ -1616,23 +1624,23 @@ meta.foundation-mq-topbar {
         line-height: 1;
         white-space: nowrap;
         padding: 12px 15px;
-        background: #333333; }
+        background: #0001FF; }
       .top-bar-section .dropdown li:not(.has-form) a:not(.button) {
         color: white;
-        background: #333333; }
+        background: #0001FF; }
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: white;
         background: #272727; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
-        background: #333333; }
+        background: #0001FF; }
       .top-bar-section .dropdown li .dropdown {
         left: 100%;
         top: 0; }
     .top-bar-section > ul > .divider, .top-bar-section > ul > [role="separator"] {
       border-bottom: none;
       border-top: none;
-      border-right: solid 1px #4e4e4e;
+      border-right: solid 1px #FFFFFF;
       clear: none;
       height: 45px;
       width: 0; }
@@ -1904,10 +1912,10 @@ meta.foundation-mq-topbar {
 .panel {
   border-style: solid;
   border-width: 1px;
-  border-color: #FFFFCC;
+  border-color: #7D7D7D;
   margin-bottom: 1.25rem;
   padding: 1.25rem;
-  background: #99CC99; }
+  background: #E5E5E5; }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
