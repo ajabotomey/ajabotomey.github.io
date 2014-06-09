@@ -1,6 +1,8 @@
 /* User specific */
-p {
-	font-family: Georgia, serif;
+#tagline {
+	font-size: 2em;
+	font-weight: bold;
+	color: rgba(61, 145, 218, 1);
 }
 
 /* Foundation Specific */
@@ -45,7 +47,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: #CFCFCF;
+  background: #F5F5F5;
   color: #222222;
   padding: 0;
   margin: 0;
@@ -1910,12 +1912,12 @@ meta.foundation-mq-topbar {
 
 /* Panels */
 .panel {
-  border-style: solid;
+  /*border-style: solid;
   border-width: 1px;
   border-color: #7D7D7D;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.25rem;*/
   padding: 1.25rem;
-  background: #E5E5E5; }
+  /*background: #E5E5E5;*/ }
   .panel > :first-child {
     margin-top: 0; }
   .panel > :last-child {
