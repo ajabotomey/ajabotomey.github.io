@@ -1444,7 +1444,7 @@ meta.foundation-mq-topbar {
       .top-bar-section ul li > button.alert:hover, .top-bar-section ul li > button.alert:focus {
         color: white; }
   .top-bar-section ul li:hover:not(.has-form) > a {
-    background: #272727;
+    background: #2E6DBA;
     color: white; }
   .top-bar-section ul li.active > a {
     background: #008cba;
@@ -1632,7 +1632,7 @@ meta.foundation-mq-topbar {
         background: rgba(61, 145, 218, 1); }
       .top-bar-section .dropdown li:not(.has-form):hover > a:not(.button) {
         color: white;
-        background: #272727; }
+        background: #2E6DBA; }
       .top-bar-section .dropdown li label {
         white-space: nowrap;
         background: rgba(61, 145, 218, 1); }
