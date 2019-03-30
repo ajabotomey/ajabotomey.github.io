@@ -1,3 +1,7 @@
+//
+// VARIABLES
+//
+
 // Colors
 $blue: #4183C4;
 
@@ -19,14 +23,4 @@ $georgia: Georgia, serif;
   @media screen and (max-width: 640px) {
     @content;
   }
-}
-
-.posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
-}
-
-.posts > .post:last-child {
-  padding-bottom: 1em;
-  border-bottom: none;
 }
